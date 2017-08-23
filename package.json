@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/TamIT001/Node/issues"
   },
-  "homepage": "https://github.com/TamIT001/Node#readme"
+  "homepage": "https://github.com/TamIT001/Node#readme",
+  "dependencies": {
+    "express": "^4.15.4"
+  }
 }
