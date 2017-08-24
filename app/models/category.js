@@ -7,9 +7,9 @@ var category = {
             if (err != null) throw err;
             client.query('Select id, name from categories', function( err, result){
                 if (err)
-                    console.log(err);
-                else
-                    console.log(JSON.stringify(result));
+                    throw err;
+                // else
+                //     console.log(JSON.stringify(result));
                 callback(err, result.rows);
             });
         });
