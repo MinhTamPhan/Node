@@ -1,0 +1,20 @@
+{
+  "name": "node",
+  "description": "Project learn node.js",
+  "main": "index.js",
+  "authors": [
+    "Minh Tam"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/TamIT001/Node",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}
