@@ -1,5 +1,6 @@
 # Node
 learn Node.js
+# using packet pg and postgre SQL
 #Project Layout
 -App
     - controllers
