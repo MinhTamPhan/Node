@@ -10,14 +10,14 @@ learn Node.js
 #
 *capture Screen*
 #
-*index*
-!(/capture/Screenshot(11).png)
+*index
+![index](/capture/Screenshot(11).png)
 #
-*login*
-!(/capture/Screenshot(12).png)
+*login
+![login](/capture/Screenshot(12).png)
 #
-*search*
-!(/capture/Screenshot(13).png)
+*search
+![search](/capture/Screenshot(13).png)
 #
-*category*
-(/capture/Screenshot(14).png)
+*category
+![category](/capture/Screenshot(14).png)
