@@ -12,7 +12,11 @@ module.exports = function( app ){
     .get('/', controller.account.login)
     .post('/',controller.account.loginpost);
 
+    var SearchRoute = router()
+    .post('/', controller.search.search);
+
     app.use('/index', homeRoute);
     app.use('/category', categoryRoute);
     app.use('/login', loginRoute);
+    app.use('/search', SearchRoute);
 }

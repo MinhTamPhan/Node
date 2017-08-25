@@ -20,9 +20,11 @@ var accountController = {
         model.CheckUser(User, function( queryResult ){
             //console.log(queryResult);
             if (queryResult != null){
+                req.session.login = 1;                
                 var id = queryResult.id;
-                req.session.login = 1;
-                console.log(req.session.card );
+                req.session.id = null
+                // console.log(req.session.login);
+                // console.log(req.session.id);
                 res.redirect('/index');
             }
             else
