@@ -1,3 +1,5 @@
+
 module.exports = {
-    home: require('./HomeController')
+    home: require('./HomeController'),
+    category: require('./CategoryController')
 }

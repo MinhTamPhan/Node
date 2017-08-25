@@ -1,0 +1,28 @@
+<div class="container-fluid">
+    <div class="row">
+             {{#each products}}
+                <div class="col-md-4">
+                        <div class="thumbnail">
+                            <a href="/views/imgs/sp/{{this.proid}}/main.jpg" data-lightbox="{{this.proid}}" data-title="{{this.proName}}">
+                                <img src="/views/imgs/sp/{{this.proid}}/main_thumbs.jpg" alt="{{this.proName}}"
+                                     style="margin-top:20px !important;">
+                            </a>
+                            <div class="caption" style="margin:0px 0px 0px 0px !important;">
+                                <h6 style="color:blueviolet;">{{this.proName}}</h6>
+                                <h6 style="color:mediumblue">{{this.price}}</h6>
+                                <p style="height:70px;margin-bottom:0px !important;">
+                                    {{{this.tinydes}}}
+                                </p>
+                                <p>
+                                    <a class="btn btn-info btn-round" role="button"
+                                       href="/product/{{this.proid}}">
+                                        <span class="pe-7s-magic-wand"></span>
+                                        <b> &nbsp;Chi Tiết</b>
+                                    </a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>     
+            {{/each}}   
+    </div>
+</div>

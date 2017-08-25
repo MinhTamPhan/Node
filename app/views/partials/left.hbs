@@ -5,7 +5,7 @@
 		        Tip 2: you can also add an image using data-image tag
 		    -->
     <div class="logo">
-        <a href="http://www.creative-tim.com" class="simple-text">
+        <a href="/index" class="simple-text">
             Mobile Shop
         </a>
     </div>
@@ -14,7 +14,7 @@
         <ul class="nav">
             {{#each category}}
                 <li class="active">
-                    <a href="dashboard.html">
+                    <a href="/category/{{this.id}}">
                         <i class="material-icons">dashboard</i>                        
                         <p>{{this.name}}</p>
                     </a>

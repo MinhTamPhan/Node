@@ -5,7 +5,7 @@ tmp.GetCategories(function( err, category){
 });
 var homeController = {
     index: function(req, res){
-        res.render('index',{
+        res.render('home/index',{
             title: 'index page',
             page: 'index',
             category: getcategory

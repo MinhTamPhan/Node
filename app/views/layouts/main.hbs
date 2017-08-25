@@ -17,9 +17,8 @@
     <!--  Material Dashboard CSS    -->
     <link href="../assets/css/material-dashboard.css" rel="stylesheet"/>
 
-    <!--  CSS for Demo Purpose, don't include it in your project     -->
-    <link href="../assets/css/demo.css" rel="stylesheet" />
-
+    <link href="../assets/lightbox2/css/lightbox.min.css" rel="stylesheet" />
+     <link href="../assets/btnstyle.css" rel="stylesheet" />
     <!--     Fonts and icons     -->
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Roboto:400,700,300|Material+Icons' rel='stylesheet' type='text/css'>
@@ -27,7 +26,52 @@
 
 <body>
 
-	{{{body}}}
+	<div class="wrapper">
+
+    {{> left}}
+
+    <div class="main-panel">
+        {{> header}}
+        <div class="content">
+          {{{body}}}
+        </div>
+
+        <footer class="footer">
+            <div class="container-fluid">
+                <nav class="pull-left">
+                    <ul>
+                        <li>
+                            <a href="#">
+									Home
+								</a>
+                        </li>
+                        <li>
+                            <a href="#">
+									Company
+								</a>
+                        </li>
+                        <li>
+                            <a href="#">
+									Portfolio
+								</a>
+                        </li>
+                        <li>
+                            <a href="#">
+								   Blog
+								</a>
+                        </li>
+                    </ul>
+                </nav>
+                <p class="copyright pull-right">
+                    &copy;
+                    <script>
+                        document.write(new Date().getFullYear())
+                    </script> <a href="http://www.creative-tim.com">Creative Tim</a>, made with love for a better web
+                </p>
+            </div>
+        </footer>
+    </div>
+</div>
 
 </body>
 
@@ -49,7 +93,7 @@
 	<script src="../assets/js/material-dashboard.js"></script>
 
 	<!-- Material Dashboard DEMO methods, don't include it in your project! -->
-	<script src="../assets/js/demo.js"></script>
+	<script src="../assets/lightbox2/js/lightbox.min.js"></script>
 
 	<script type="text/javascript">
     	$(document).ready(function(){
