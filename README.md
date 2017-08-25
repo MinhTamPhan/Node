@@ -2,11 +2,11 @@
 learn Node.js
 # using packet pg and postgre SQL
 #Project Layout
--App
-    - controllers
-    - helper
-    - models
-    - views
+#-App
+    #- controllers
+    #- helper
+    #- models
+    #- views
 #*capture Screen*
 *index*
 (/capture/Screenshot(11).png)
